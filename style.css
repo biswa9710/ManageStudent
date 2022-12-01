@@ -1,0 +1,124 @@
+
+*
+
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+body{
+
+background-color:burlywood;
+padding: 1 10px;
+
+}
+
+
+.container
+{
+
+max-width: 500px;
+width: 100%;
+background-color: #d7dae7;  
+margin: 2px auto;
+padding: 10px;
+box-shadow: 10px 10px 10px rgba(0,0,0,0,125);
+}
+.container .title
+{
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 60px;
+background-color: rgb(236, 136, 4);
+text-transform: uppercase;
+text-align: center;
+}
+.container .form
+{
+    width: 100%;
+}
+.terms{
+    margin-left:210px
+}
+.container .form .input_field
+{
+    margin-bottom:  15px;
+    display: flex;
+    align-items: center;
+}
+.container .form .input_field label
+{
+width: 200px;
+margin-right: 10px;
+
+} 
+.container .form .input_field .input,
+.container .form .input_field .input_field,textarea
+{
+
+width: 100%;
+outline: none;
+border: 1px solid #D071f9;
+font-size: 15px;
+padding: 8PX 10PX;
+border-radius: 3px;
+transition: all 0.5s ease;
+}
+
+.container .form .input_field .input_field.textarea
+
+{
+
+resize: none;
+height: 70px;
+
+}
+.container .form .input_field .input_field .selectbox select
+{
+
+position: relative;
+width: 100%;
+height: 35px;
+border: 1px solid #D071f9;
+border: 1px solid #D071f9;
+-webkit-appearance: none;
+appearance: none;
+border-radius: 3px;
+outline: none;
+
+}
+.container .form .input_field .input_field .selectbox:before
+{
+ content: "";
+ position: absolute;
+ top: 0;
+ right: 0;
+ border: 8px solid;
+ border-color:red green pink black ;
+
+
+
+}
+.container .input.input_field.input:focus
+.container .input.input_field.textarea:focus
+.container .input.input_field select:focus
+{
+border: 1px solid purple;
+
+}
+.container .form .input_field p
+{
+font-size:14px;
+color:#757575;
+
+}
+.container.form.input_field.check
+{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
